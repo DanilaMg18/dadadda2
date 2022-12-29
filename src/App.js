@@ -1,9 +1,14 @@
-import Logo from "./components/Logo";
+import { Level1a } from "./components/level1a";
+import { Level1b } from "./components/level1b";
+import { levelContext } from "./components/levelcontext";
 
 function App() {
   return (
     <div className="App">
-      <Logo/>
+        <levelContext.Provider>
+          <Level1a/>
+          <Level1b/>
+        </levelContext.Provider>
     </div>
   );
 }
