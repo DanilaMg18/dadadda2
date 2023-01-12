@@ -2,7 +2,7 @@ import React from "react"
 
 function Level2b() {
     return(
-        <div>Level2b</div>
+        <div className="lvl2b">Level2b</div>
     )
 }
 
